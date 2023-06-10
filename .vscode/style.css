@@ -131,7 +131,7 @@ ul li a:hover {
 }
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./bg-mobile.jpg/bg-desktop-light.jpg);
+    --bg-url: url(./bg-mobile.jpg/bg-desktop.jpg);
   }
 }
 @keyframes slide-in {
