@@ -127,12 +127,20 @@ ul li a:hover {
   background-color: rgba(255, 255, 255, 0.05);
   border: 1.5px solid var(--text-color);
 }
-@media (min-width: 700px) {
-  :root {
-    --bg-url: url(./bg-mobile.jpg/avatar.png);
+@keyframes slide-in {
+  from {
+    left: 0;
   }
+  to {
+    left: 50%;
+  }
+}
 
-  .light {
-    --bg-url: url(./bg-mobile.jpg/avatar-light.png);
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
